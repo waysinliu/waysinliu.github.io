@@ -1,0 +1,13 @@
+title: Waysin's Blog
+lang: zh
+
+github_username: waysinliu
+twitter_username: waysinliu
+rss: true
+
+utterances_repo: waysinliu/waysinliu.github.io
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

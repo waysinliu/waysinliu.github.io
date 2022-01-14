@@ -1,0 +1,196 @@
+.highlight table td {
+  padding: 5px;
+}
+
+.highlight table pre {
+  margin: 0;
+}
+
+.highlight {
+  color: $nord4;
+  background-color: $nord0;
+}
+
+.highlight .gl {
+  color: #dee5e7;
+}
+
+.highlight .gp {
+  color: #a8e1fe;
+}
+
+.highlight .c,
+.highlight .ch,
+.highlight .cd,
+.highlight .cm,
+.highlight .cpf,
+.highlight .c1,
+.highlight .cs {
+  color: $nord3;
+  font-style: italic;
+}
+
+.highlight .cp {
+  color: $nord10;
+}
+
+.highlight .err {
+  color: $nord11;
+}
+
+.highlight .gr {
+  color: $nord11;
+  font-style: italic;
+}
+
+.highlight .k,
+.highlight .kd,
+.highlight .kv {
+  color: $nord9;
+}
+
+.highlight .o,
+.highlight .ow {
+  color: $nord6;
+}
+
+.highlight .p,
+.highlight .pi {
+  color: $nord6;
+}
+
+.highlight .gd {
+  color: $nord11;
+}
+
+.highlight .ge {
+  font-style: italic;
+}
+
+.highlight .gs {
+  font-weight: bold;
+}
+
+.highlight .kc {
+  color: $nord9;
+}
+
+.highlight .kn {
+  color: $nord9;
+}
+
+.highlight .kp {
+  color: $nord9;
+}
+
+.highlight .kr {
+  color: $nord9;
+}
+
+.highlight .kt {
+  color: $nord7;
+}
+
+.highlight .no {
+  color: $nord7;
+}
+
+.highlight .nc {
+  color: $nord7;
+}
+
+.highlight .nd {
+  color: $nord7;
+}
+
+.highlight .nn {
+  color: $nord7;
+}
+
+.highlight .bp {
+  color: $nord7;
+}
+
+.highlight .ne {
+  color: $nord7;
+}
+
+.highlight .nl {
+  color: $nord9;
+}
+
+.highlight .nt {
+  color: $nord9;
+}
+
+.highlight .m,
+.highlight .mb,
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .il,
+.highlight .mo,
+.highlight .mx {
+  color: $nord15;
+}
+
+.highlight .ld {
+  color: $nord14;
+}
+
+.highlight .ss {
+  color: $nord14;
+}
+
+.highlight .s,
+.highlight .sb,
+.highlight .dl,
+.highlight .sd,
+.highlight .s2,
+.highlight .sh,
+.highlight .sx,
+.highlight .sr,
+.highlight .s1 {
+  color: $nord14;
+}
+
+.highlight .sa {
+  color: $nord14;
+}
+
+.highlight .se {
+  color: $nord13;
+}
+
+.highlight .sc {
+  color: $nord14;
+}
+
+.highlight .si {
+  color: $nord14;
+}
+
+.highlight .nb {
+  font-weight: bold;
+}
+
+.highlight .ni {
+  color: $nord13;
+}
+
+.highlight .w {
+  color: $nord9;
+}
+
+.highlight .nf,
+.highlight .fm {
+  color: $nord8;
+}
+
+.highlight .py {
+  color: $nord8;
+}
+
+.highlight .na {
+  color: $nord8;
+}

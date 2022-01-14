@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+$base-font-family: sans-serif !default;
+$code-font-family: "Fira Code", Monaca, Consolas, "Liberation Mono", monospace !default;
+$base-font-size: 16px !default;
+$base-font-weight: 300 !default;
+$code-font-weight: 500 !default;
+$base-line-height: 1.5 !default;
+
+$base-width: 800px !default;
+$base-spacing: 30px !default;
+
+// Nord colorscheme
+$nord0: #2e3440;
+$nord1: #3b4252;
+$nord2: #434c5e;
+$nord3: #4c566a;
+$nord4: #d8dee9;
+$nord5: #e5e9f0;
+$nord6: #eceff4;
+$nord7: #8fbcbb;
+$nord8: #88c0d0;
+$nord9: #81a1c1;
+$nord10: #5e81ac;
+$nord11: #bf616a;
+$nord12: #d08770;
+$nord13: #ebcb8b;
+$nord14: #a3be8c;
+$nord15: #b48ead;
+
+$base-color: $nord4;
+$highlight-color: $nord6;
+$sub-color: $nord3;
+$link-color: $nord8;
+$blockquote-color: $nord5;
+$table-color: $nord6;
+
+$base-border: $nord1;
+$highlight-border: $nord8;
+
+$base-background: $nord0;
+$highlight-background: $nord1;
+$code-background: $nord2;
+
+@import "base", "layout", "highlight";

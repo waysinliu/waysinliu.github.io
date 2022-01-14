@@ -1,0 +1,16 @@
+<header class="site-header">
+  <div class="wrapper">
+    <a class="logo" href="{{ "/" | relative_url }}">
+      {{ site.title | default: "Blog" }}
+    </a>
+    {% if site.data.navigation %}
+    <nav class="nav-list">
+      {% for link in site.data.navigation %}
+      <a href="{{ link.url }}">
+        {{ link.title }}
+      </a>
+      {% endfor %}
+    </nav>
+    {% endif %}
+  </div>
+</header>

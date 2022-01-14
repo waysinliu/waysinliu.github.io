@@ -1,0 +1,108 @@
+// Common
+.wrapper {
+  max-width: $base-width - ($base-spacing * 2);
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: $base-spacing;
+  padding-left: $base-spacing;
+}
+
+.site-main {
+  min-height: calc(100vh - #{$base-spacing} * 6 - 4px);
+  padding-top: $base-spacing;
+  padding-bottom: $base-spacing;
+  background-color: $base-background;
+}
+
+.site-header,
+.site-footer {
+  background-color: $highlight-background;
+
+  .wrapper {
+    min-height: $base-spacing * 2;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.svg-icon {
+  width: 16px;
+  height: 16px;
+  fill: $highlight-color;
+}
+
+// Header
+.site-header {
+  border-top: 4px solid $highlight-border;
+
+  .wrapper {
+    justify-content: space-between;
+
+    .logo {
+      color: $highlight-color;
+      font-size: 1.5em;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    .nav-list a {
+      margin-left: $base-spacing / 3;
+      color: $base-color;
+
+      &:hover {
+        color: $highlight-color;
+      }
+    }
+  }
+}
+
+// Footer
+.site-footer {
+  .wrapper {
+    justify-content: center;
+
+    .social-list {
+      width: $base-spacing * 3;
+      display: flex;
+      justify-content: space-between;
+
+      a:hover .svg-icon {
+        fill: $link-color;
+      }
+    }
+  }
+}
+
+// Home
+.site-home {
+  .search {
+    width: 100%;
+    margin-bottom: $base-spacing / 2;
+    padding: 8px 12px;
+    color: $base-color;
+    border: 1px solid $base-border;
+    background-color: $highlight-background;
+    box-sizing: border-box;
+  }
+
+  p {
+    margin-left: $base-spacing;
+
+    small {
+      color: $base-color;
+    }
+
+    a {
+      font-size: 1.5em;
+    }
+  }
+}
+
+// Post
+.site-post {
+  .post-meta {
+    text-align: center;
+  }
+}

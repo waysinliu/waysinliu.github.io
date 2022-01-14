@@ -1,0 +1,151 @@
+// Body
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height}
+    $base-font-family;
+  color: $base-color;
+  background-color: $highlight-background;
+}
+
+// Element
+blockquote,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+ol,
+p,
+pre,
+table,
+ul {
+  margin: 0;
+  padding: 0;
+  margin-bottom: $base-spacing / 2;
+}
+
+img {
+  max-width: 100%;
+}
+
+// List
+ul,
+ol {
+  margin-left: $base-spacing;
+}
+
+li {
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
+}
+
+// Title
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.75em;
+}
+
+h5 {
+  font-size: 1.5em;
+}
+
+h6 {
+  font-size: 1.25em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $highlight-color;
+  font-weight: $base-font-weight;
+}
+
+small {
+  color: $sub-color;
+}
+
+hr {
+  border-color: $base-border;
+}
+
+// Link
+a {
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// Blockquote
+blockquote {
+  padding-left: $base-spacing / 2;
+  color: $blockquote-color;
+  font-style: italic;
+  border-left: 4px solid $highlight-border;
+}
+
+// Code
+code {
+  padding: 2px 6px;
+  font-family: $code-font-family;
+  font-size: 0.875em;
+  font-weight: $code-font-weight;
+  border-radius: 4px;
+  background-color: $code-background;
+}
+
+pre {
+  padding: 4px 12px;
+  border: 1px solid $base-border;
+  border-radius: 8px;
+  overflow-x: auto;
+
+  > code {
+    padding-right: 0;
+    padding-left: 0;
+    background-color: transparent;
+    border: 0;
+  }
+}
+
+// Table
+table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+
+  th,
+  td {
+    padding: ($base-spacing / 3) ($base-spacing / 2);
+    border: 1px solid $base-border;
+  }
+
+  th {
+    color: $table-color;
+    background-color: $highlight-background;
+  }
+}
